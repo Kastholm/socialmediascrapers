@@ -13,7 +13,7 @@ chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
 url ='https://www.instagram.com/accounts/login/?next=%2F3danmark%2F&source=desktop_nav&hl=en'
 url3DK ='https://www.instagram.com/3danmark/?hl=en'
 today = date.today()
-index = 33
+index = 84
 
 # Opret ChromeService med stien til ChromeDriver
 service = webdriver.ChromeService(executable_path=chromedriver_bin)
@@ -29,7 +29,7 @@ button.click()
 time.sleep(2)
 
 input_field = driver.find_element(By.NAME, 'username')
-input_field.send_keys('dagens.dk')
+input_field.send_keys('')
 time.sleep(2)
 input_field = driver.find_element(By.NAME, 'password')
 input_field.send_keys('')
@@ -53,12 +53,12 @@ driver.get(url3DK)
 #while time.time() < end_time:
  #   driver.find_element("tag name", "body").send_keys(Keys.PAGE_DOWN)
   #  time.sleep(0.1)  
-
-time.sleep(60)
+time.sleep(30)
 driver.execute_script("document.body.style.zoom='20%'")
+time.sleep(30)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
-posts = driver.find_elements(By.CSS_SELECTOR, 'main > div > div:nth-child(4) > div > div div:has(a)')
-videoAmount = soup.select('main > div > div:nth-child(4) > div > div div:has(a)')
+posts = driver.find_elements(By.CSS_SELECTOR, 'main > div > div:nth-child(3) > div > div div:has(a)')
+videoAmount = soup.select('main > div > div:nth-child(3) > div > div div:has(a)')
 print(len(videoAmount))
 
 
@@ -86,7 +86,7 @@ while index <= len(videoAmount) :
     time.sleep(2)
 
     #title
-    title = soup.select_one('h1._ap3a').text
+    title = soup.select_one('h1._ap3a._aad7').text
     print(title)
     #published
     publishedDate = soup.select_one('time[datetime]')
@@ -171,3 +171,7 @@ while index <= len(videoAmount) :
     close = driver.find_element(By.CSS_SELECTOR, 'div.x160vmok:has(svg)')
     close.click()
     time.sleep(4)
+
+
+
+    
