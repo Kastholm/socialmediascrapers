@@ -10,10 +10,9 @@ import sys
 from datetime import date
 
 chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
-url ='https://www.instagram.com/accounts/login/?next=%2F3danmark%2F&source=desktop_nav&hl=en'
-url3DK ='https://www.instagram.com/3danmark/?hl=en'
+url ='https://www.facebook.com/3Danmark'
 today = date.today()
-index = 84
+index = 0
 
 # Opret ChromeService med stien til ChromeDriver
 service = webdriver.ChromeService(executable_path=chromedriver_bin)
@@ -23,30 +22,23 @@ driver = webdriver.Chrome(service=service)
 driver.get(url)
 # Login
 time.sleep(2)
-button = driver.find_element(By.XPATH, "//button[text()='Allow all cookies']")
+button = driver.find_element(By.XPATH, "//span[text()='Tillad alle cookies']")
 button.click()
 
 time.sleep(2)
 
-input_field = driver.find_element(By.NAME, 'username')
-input_field.send_keys('')
+input_field = driver.find_element(By.NAME, 'email')
+input_field.send_keys('mac@mgdk.dk')
 time.sleep(2)
-input_field = driver.find_element(By.NAME, 'password')
+input_field = driver.find_element(By.NAME, 'pass')
 input_field.send_keys('')
 
 time.sleep(1)
 
-button = driver.find_element(By.XPATH, "//button[@type='submit']")
+button = driver.find_element(By.CSS_SELECTOR, '//div[aria-label="Accessible login button"]')
 button.click()
 
-time.sleep(10)
-
-button = driver.find_element(By.XPATH, "//div[text()='Not now']")
-button.click()
-
-driver.get(url3DK)
-
-
+time.sleep(30)
 
 # Start scrolling down for 5 seconds
 #end_time = time.time() + 10
@@ -57,8 +49,8 @@ time.sleep(30)
 driver.execute_script("document.body.style.zoom='20%'")
 time.sleep(30)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
-posts = driver.find_elements(By.CSS_SELECTOR, 'main > div > div:nth-child(3) > div > div div:has(a)')
-videoAmount = soup.select('main > div > div:nth-child(3) > div > div div:has(a)')
+posts = driver.find_elements(By.CSS_SELECTOR, '/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[4]/div/div/div/div/div[1]/div/div[2]/div[2]/span/div/span/span')
+videoAmount = soup.select('/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[4]/div/div/div/div/div[1]/div/div[2]/div[2]/span/div/span/span')
 print(len(videoAmount))
 
 
@@ -69,28 +61,32 @@ while index <= len(videoAmount) :
         print(len(posts))
         print('index', index)
         posts[index].click()
-    time.sleep(3)
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    legit = soup.select_one('h2._a9zc:has(a[href="/3danmark/"])')
-    if not legit:
-        index += 1
-        close = driver.find_element(By.CSS_SELECTOR, 'div.x160vmok:has(svg)')
-        close.click()
-        time.sleep(2)
-        continue
+    #time.sleep(3)
+    #soup = BeautifulSoup(driver.page_source, 'html.parser')
+    #legit = soup.select_one('h2._a9zc:has(a[href="/3danmark/"])')
+    #if not legit:
+    #    index += 1
+    #    close = driver.find_element(By.CSS_SELECTOR, 'div.x160vmok:has(svg)')
+    #    close.click()
+    #    time.sleep(2)
+    #    continue
 
     time.sleep(10)
+    # Start scrolling down for 5 seconds
+    end_time = time.time() + 10
+    while time.time() < end_time:
+       driver.find_element("/html/body/div[1]/div/div/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div").send_keys(Keys.PAGE_DOWN)
+       time.sleep(0.1)  
 
     #Scrape page
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     time.sleep(2)
 
     #title
-    title = soup.select_one('h1._ap3a._aad7').text
+    title = soup.find('/html/body/div[1]/div/div/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[3]/div[1]/div/div/div/div/span').text
     print(title)
     #published
-    publishedDate = soup.select_one('time[datetime]')
-    published = publishedDate['datetime'].split("T")[0]
+    published = soup.select_one('/html/body/div[1]/div/div/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div/div[2]/div/div[2]/span/div/span[1]/span/span/a')
     print(published)
     #url
     postUrl = driver.current_url
@@ -106,7 +102,8 @@ while index <= len(videoAmount) :
     #Look for reply click events
     time.sleep(4)
     #article button with classes _acan _acao _acas _aj1- _ap30 which has a div and a span
-    reply_sections = driver.find_elements(By.CSS_SELECTOR, 'article button:not([aria-label="Toggle audio"])._acan._acao._acas._aj1-._ap30:has(div, span)')
+    reply_sections = driver.find_elements(By.CSS_SELECTOR, '/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/span/span/div/div[4]')
+# alle svar /html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div[2]/div/div[3]/div[2]    
     if reply_sections:
         for replyEvent in reply_sections:
             replyEvent.send_keys(Keys.ENTER)
@@ -173,6 +170,3 @@ while index <= len(videoAmount) :
     time.sleep(4)
 
 
-
-    # NIce to have - Kateogory AI API
-    # Oplag antal kommentarer, antal likes

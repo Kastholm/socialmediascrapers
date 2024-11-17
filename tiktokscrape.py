@@ -12,7 +12,7 @@ from datetime import date
 chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
 url ='https://www.tiktok.com/@3danmark'
 today = date.today()
-index = 109
+index = 0
 
 # Opret ChromeService med stien til ChromeDriver
 service = webdriver.ChromeService(executable_path=chromedriver_bin)
@@ -109,3 +109,11 @@ while len(videoAmount) >= index:
     close = driver.find_element(By.CSS_SELECTOR, 'button[data-e2e="browse-close"]')
     close.click()
     time.sleep(10)
+
+
+    
+    # 1 python .\tiktokscrape.py
+    # 2 Solve puzzle
+    # 3 Zoom out to load posts
+    # 4 Crashes after 3 post
+    # skift index
