@@ -15,7 +15,7 @@ chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
 url ='https://www.instagram.com/accounts/login/?next=%2F3danmark%2F&source=desktop_nav&hl=en'
 url3DK ='https://www.instagram.com/3danmark/?hl=en'
 today = date.today()
-index = 0
+index = 99
 
 # Opret ChromeService med stien til ChromeDriver
 service = webdriver.ChromeService(executable_path=chromedriver_bin)
@@ -34,7 +34,7 @@ input_field = driver.find_element(By.NAME, 'username')
 input_field.send_keys('Christiansen1995@live.dk')
 time.sleep(2)
 input_field = driver.find_element(By.NAME, 'password')
-input_field.send_keys('')
+input_field.send_keys('Kastholm95')
 
 time.sleep(1)
 
@@ -55,8 +55,8 @@ driver.get(url3DK)
 #while time.time() < end_time:
  #   driver.find_element("tag name", "body").send_keys(Keys.PAGE_DOWN)
   #  time.sleep(0.1)  
-#time.sleep(30)
-#driver.execute_script("document.body.style.zoom='20%'")
+time.sleep(30)
+driver.execute_script("document.body.style.zoom='20%'")
 time.sleep(10)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 posts = driver.find_elements(By.CSS_SELECTOR, 'main > div > div:nth-child(3) > div > div div:has(a)')
