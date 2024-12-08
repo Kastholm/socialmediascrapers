@@ -13,7 +13,7 @@ from datetime import date
 chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
 url ='https://www.tiktok.com/@3danmark'
 today = date.today()
-index = 5
+index = 125
 
 # Opret ChromeService med stien til ChromeDriver
 service = webdriver.ChromeService(executable_path=chromedriver_bin)
