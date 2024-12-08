@@ -7,6 +7,7 @@ import requests
 import time
 import json
 import sys
+import os
 from datetime import date
 
 chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
@@ -21,7 +22,7 @@ driver = webdriver.Chrome(service=service)
 #Open Tiktok
 driver.get(url)
 # Solve puzzle manually, login and zoom out
-time.sleep(20)
+time.sleep(0)
 
 driver.execute_script("document.body.style.zoom='20%'")
 
@@ -46,12 +47,25 @@ while len(videoAmount) >= index:
     title = soup.select_one('h1[data-e2e="browse-video-desc"] span:nth-child(1)').text
     #published
     published = soup.select_one('span[data-e2e="browser-nickname"] span:nth-child(3)').text
+    # Likes
+    likeAmount = soup.select_one('strong[data-e2e="browse-like-count"]')
+    likeAmount = likeAmount.text if likeAmount else '0'
+    # Comments
+    commentAmount = soup.select_one('strong[data-e2e="browse-comment-count"]')
+    commentAmount = commentAmount.text if commentAmount else '0'
+    # Shares
+    shareAmount = soup.select_one('strong[data-e2e="undefined-count"]')
+    shareAmount = shareAmount.text if shareAmount else '0'
     #url
     postUrl = driver.current_url
+    #time.sleep(2000)
     #start JSON doc
     post = {
         "videoTitle": f"{title}",
         "url": f"{postUrl}",
+        "likes": likeAmount, 
+        "commentsCount": commentAmount,  
+        "sharesCount": shareAmount, 
         "published": f"{published}",
         "dataFetchDate": f"{str(today)}",
         "comments": []
@@ -66,27 +80,31 @@ while len(videoAmount) >= index:
 
     # Opdater soup med det nye page_source
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-
     #select all comments
     comment_sections = soup.select('div[class*="DivCommentItemContainer"]')
     for section in comment_sections:
         #For hver kommentar henter vi 3 stykker information:
-        user = section.select_one('span[data-e2e="comment-username-1"]').text
+        user = 'Anonymous' #section.select_one('span[data-e2e="comment-username-1"]').text
+        likes_count = section.select_one('span[data-e2e="comment-like-count"]').text
         comment = section.select_one('p[data-e2e="comment-level-1"] span').text
         timestamp = section.select_one('span[data-e2e="comment-time-1"]').text
-
-
         replies = section.select('div[class*="DivReplyContainer"] div[class*="DivCommentContentContainer"]')
         reply_data = []
          # Iterer over alle replies og hent deres data
         if replies:
             for reply in replies:
-                reply_user = reply.select_one('span[data-e2e="comment-username-2"]').text
+                reply_user = reply.select_one('span[data-e2e="comment-username-2"]')
+                if reply_user == '3 Danmark':
+                    reply_user = '3 Danmark'
+                else:
+                    reply_user = 'Anonymous'
+                reply_likes_count = section.select_one('span[data-e2e="comment-like-count"]').text
                 reply_comment = reply.select_one('p[data-e2e="comment-level-2"] span').text
                 reply_timestamp = reply.select_one('span[data-e2e="comment-time-2"]').text
                 # Tilføj reply data til listen
                 reply_data.append({
                     "user": reply_user,
+                    "likes": reply_likes_count,
                     "comment": reply_comment,
                     "timestamp": reply_timestamp
                 })
@@ -94,6 +112,7 @@ while len(videoAmount) >= index:
         # Tilføj den oprindelige kommentar og dens replies som ét objekt til data
         post['comments'].append({
             "user": user,
+            "likes": likes_count,
             "comment": comment,
             "timestamp": timestamp,
             "replies": reply_data  # Liste med alle svar til denne kommentar
@@ -103,7 +122,10 @@ while len(videoAmount) >= index:
     json_data = json.dumps(post, ensure_ascii=False, indent=4)
     print(json_data)
     # Lav JSON doc
-    with open(f"scrape{index}.json", "w", encoding='utf-8') as outfile:
+    folder_name = "tiktokScrapes"
+    os.makedirs(folder_name, exist_ok=True)
+    file_path = os.path.join(folder_name, f"tiktok_scrape{index}.json")
+    with open(file_path, "w", encoding="utf-8") as outfile:
         outfile.write(json_data)
     index += 1
     close = driver.find_element(By.CSS_SELECTOR, 'button[data-e2e="browse-close"]')
@@ -115,5 +137,5 @@ while len(videoAmount) >= index:
     # 1 python .\tiktokscrape.py
     # 2 Solve puzzle
     # 3 Zoom out to load posts
-    # 4 Crashes after 3 post
-    # skift index
+    # 4 Crashes after 5ish post
+    # 5 Hvis den crasher hust at skift index oppe i toppen til næste video index

@@ -1,42 +1,68 @@
 {
     "videoTitle": "Du kan nu bruge din telefon i Pakistan og Egypten med 3LikeHome 🇪🇬🇵🇰#Egypten #Pakistan #3LikeHome",
     "url": "https://www.instagram.com/p/DBQkkUCMtC2/?hl=en",
+    "likes": "29",
     "published": "2024-10-18",
-    "dataFetchDate": "2024-11-16",
+    "dataFetchDate": "2024-12-08",
     "comments": [
         {
-            "user": "mamayalilli",
-            "comment": "Så fedt, rejser så meget til Egypten 😍😍",
+            "user": "Anonymous",
+            "likes": "1 like",
             "timestamp": "2024-10-18",
+            "replyAmount": "0",
+            "comment": "Så fedt, rejser så meget til Egypten 😍😍",
             "replies": [
                 {
-                    "user": "3danmarkVerified",
-                    "comment": "@mamayalilli Vi er glade for at du kan gøre brug af vores nyeste tilføjelse!😊",
-                    "timestamp": "2024-10-21"
+                    "user": "3danmark",
+                    "likes": "0",
+                    "timestamp": "2024-10-21",
+                    "comment": "Vi er glade for at du kan gøre brug af vores nyeste tilføjelse!😊"
                 }
             ]
         },
         {
-            "user": "otadimehri_",
-            "comment": "🔥🔥",
-            "timestamp": "2024-10-18",
-            "replies": []
-        },
-        {
-            "user": "kokkenfrederiksen",
-            "comment": "Webombyou",
-            "timestamp": "2024-10-18",
-            "replies": []
-        },
-        {
-            "user": "_haris.mahy",
-            "comment": "Fedt at Pakistan er kommet på også🙌👏 @3danmark",
-            "timestamp": "2024-11-01",
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2024-11-18",
+            "replyAmount": "0",
+            "comment": "Det har været længe ventet, tak for den gode nyhed med Pakistan🇵🇰",
             "replies": [
                 {
-                    "user": "3danmarkVerified",
-                    "comment": "@_haris.mahy Det er vi glade for at du synes. Vi har glædet os meget til at tilføje Pakistan til vores 3LikeHome✈️😊",
-                    "timestamp": "2024-11-04"
+                    "user": "3danmark",
+                    "likes": "0",
+                    "timestamp": "2024-11-18",
+                    "comment": "Vi er glade for at vi endeligt har kunne tilføje Pakistan😃"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2024-10-18",
+            "replyAmount": "0",
+            "comment": "🔥🔥",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2024-10-18",
+            "replyAmount": "0",
+            "comment": "Webombyou",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2024-11-01",
+            "replyAmount": "0",
+            "comment": "Fedt at Pakistan er kommet på også🙌👏 @3danmark",
+            "replies": [
+                {
+                    "user": "3danmark",
+                    "likes": "0",
+                    "timestamp": "2024-11-04",
+                    "comment": ".mahy Det er vi glade for at du synes. Vi har glædet os meget til at tilføje Pakistan til vores 3LikeHome✈️😊"
                 }
             ]
         }

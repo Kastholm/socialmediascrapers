@@ -49,22 +49,9 @@ button.click()
 
 time.sleep(10)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
-#postEle = driver.find_elements(By.XPATH, '/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[4]/div/div/div/div/div[1]/div/div[2]/div[2]/span/div/span/span')
-#posts = []  # Tom liste til at gemme elementer, der ikke har '1 kommentar'
-#for ele in postEle:
-#    if ele.text != '1 kommentar':
-#        posts.append(ele)
-#dom = etree.HTML(str(soup))
-#videoAmount = dom.xpath('/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[4]/div/div/div/div/div[1]/div/div[2]/div[2]/span/div/span/span')
-#print(len(videoAmount))
+
 
 while index <= 300 :
-    #Click post
-    #time.sleep(5000000)
-    #if posts:
-    #    print(len(posts))
-    #    print('index', index)
-    #    posts[index].click()
 
     time.sleep(10)
     # Start scrolling down for 5 seconds
@@ -156,13 +143,13 @@ while index <= 300 :
     time.sleep(8)
 
     # Find Replies replies buttons
-    #try:
-    #    reply_reply_sections = driver.find.elements(By.XPATH, '/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div[2]/div/div[3]/div[2]/span')
-    #    if reply_reply_sections:
-    #        for replyEvent in reply_reply_sections:
-    #            replyEvent.click()
-    #except:
-    #    print('Ingen reply replies i denne post')
+    try:
+        reply_reply_sections = driver.find.elements(By.XPATH, '/html/body/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div[1]/div/div[2]/div/div[3]/div[2]/span')
+        if reply_reply_sections:
+            for replyEvent in reply_reply_sections:
+                replyEvent.click()
+    except:
+        print('Ingen reply replies i denne post')
 
     # Opdater soup med det nye page_source
     soup = BeautifulSoup(driver.page_source, 'html.parser')
