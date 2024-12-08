@@ -34,7 +34,7 @@ input_field = driver.find_element(By.NAME, 'username')
 input_field.send_keys('Christiansen1995@live.dk')
 time.sleep(2)
 input_field = driver.find_element(By.NAME, 'password')
-input_field.send_keys('Kastholm95')
+input_field.send_keys('')
 
 time.sleep(1)
 
