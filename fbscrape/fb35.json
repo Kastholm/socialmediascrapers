@@ -1,0 +1,60 @@
+{
+    "post": {
+        "title": "Godt nytår til alle vores skønne kunder 🎉",
+        "content": "2022 har været begivenhedsrigt på mange måder. Det var i år, vi lancerede vores helt nye mekka-løsning, 3Family - samt året, hvor vi gjorde roaming i hele EU frit med 3LikeHome ✈️. Sidst men ikke mindst, så gik vi ud med vores helt store satsning: Internet til hjemmet 5G - og det er taget fantastisk imod! 🙌",
+        "likes": 158,
+        "comments_count": 35,
+        "shares": 4,
+        "published_date": "2022-12-31"
+    },
+    "comments": [
+        {
+            "user": "Anonymous",
+            "comment": "Rigtig godt nytår 🎉 fra en mangeårig super tilfreds kunde. Mig slipper I ikke for foreløbig, se frem til 2023 💪",
+            "likes": 3,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Tak i lige måde 😊",
+                    "likes": 0
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "comment": "Hvad sker der med jeres net på 3 business 🥲🥲🥲 i 24 timer har lortet ikke virket. Og der er skiftet router, og intet hjælper.",
+            "likes": 1,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Det lyder træls, vi er kede af det. Kan du kontakte vores support, så vi kan hjælpe? 📞",
+                    "likes": 0
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "comment": "Godt nytår 🎆",
+            "likes": 2,
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "comment": "2023 bedre hastighed på 5G 3 Danmark 👍",
+            "likes": 1,
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "comment": "Godt Nytår - måske skulle arbejdet lidt mere med jeres produktudvikling, jeg har i dag haft router-skift, fordi det ikke virkede særlig godt, hvilket tog 5 timer at løse med support.",
+            "likes": 0,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Vi tager din feedback med, Kenneth! Tak for at dele. 🙌",
+                    "likes": 0
+                }
+            ]
+        }
+    ]
+}

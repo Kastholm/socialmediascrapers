@@ -1,0 +1,58 @@
+{
+    "postTitle": "Der er sket lidt siden 2008",
+    "published": "2022-12-05",
+    "likes": 92,
+    "commentsCount": 58,
+    "shares": 0,
+    "comments": [
+      {
+        "user": "Anonymous",
+        "likes": 3,
+        "comment": "Det er stærkt med bedre hastigheder, men hvad med rækkevidde? Kunne være rart med en router der kan dække hele huset/lejligheden!",
+        "replies": [
+          {
+            "user": "Anonymous",
+            "likes": 2,
+            "comment": "Måske en WiFi-forlænger kunne hjælpe på det problem? 😊"
+          }
+        ]
+      },
+      {
+        "user": "Anonymous",
+        "likes": 5,
+        "comment": "Jeg husker de gamle HSDCP-dongles! Dengang var det vildt at få 7 Mbit/s 😂",
+        "replies": []
+      },
+      {
+        "user": "Anonymous",
+        "likes": 2,
+        "comment": "Det gik nu hurtigere i 2008. Jeres nye 5G har været super ustabilt for mig.",
+        "replies": [
+          {
+            "user": "Anonymous",
+            "likes": 3,
+            "comment": "Måske det skyldes din placering? Kontakt supporten, de kan sikkert hjælpe!"
+          }
+        ]
+      },
+      {
+        "user": "Anonymous",
+        "likes": 4,
+        "comment": "Jeg tror faktisk jeg har min gamle dongle endnu 😂",
+        "replies": []
+      },
+      {
+        "user": "Anonymous",
+        "likes": 3,
+        "comment": "Kan man få adgang til IPv6-adresser med bredbåndsabonnementet?",
+        "replies": [
+          {
+            "user": "Anonymous",
+            "likes": 1,
+            "comment": "IPv6 burde være standard nu! Håber det er med i pakken."
+          }
+        ]
+      }
+    ]
+  }
+  
