@@ -13,7 +13,7 @@ from datetime import date
 chromedriver_bin = './chromedriver/chromedriver-windows/chromedriver.exe'
 url ='https://www.tiktok.com/@3danmark'
 today = date.today()
-index = 0
+index = 125
 
 # Opret ChromeService med stien til ChromeDriver
 service = webdriver.ChromeService(executable_path=chromedriver_bin)
@@ -22,7 +22,7 @@ driver = webdriver.Chrome(service=service)
 #Open Tiktok
 driver.get(url)
 # Solve puzzle manually, login and zoom out
-time.sleep(0)
+time.sleep(50)
 
 driver.execute_script("document.body.style.zoom='20%'")
 

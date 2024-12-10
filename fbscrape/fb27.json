@@ -1,0 +1,59 @@
+{
+    "videoTitle": "Har du set vores store banner ved Nørreport Station?",
+    "url": null,
+    "likes": "66",
+    "published": "2023-02-03",
+    "dataFetchDate": "2024-12-09",
+    "shares": "0",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2023-02-03",
+            "comment": "Anyone have one of these? If so what is the NAT set at, hopefully open?",
+            "replies": [
+                {
+                    "user": "Anonymous",
+                    "likes": "1",
+                    "timestamp": "2023-02-03",
+                    "comment": "Please contact our customer service at 70 313 313 to help you out with this. 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2023-02-03",
+            "comment": "Tjener kun i vippebord virker det sjut",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "5",
+            "timestamp": "2023-02-03",
+            "comment": "Nu er det to dage i træk jeres net svigter i Ballerup/måløv området 🤬",
+            "replies": [
+                {
+                    "user": "Anonymous",
+                    "likes": "1",
+                    "timestamp": "2023-02-03",
+                    "comment": "Hej! Vi arbejder på at løse det. Tak for din tålmodighed!"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "3",
+            "timestamp": "2023-02-03",
+            "comment": "Hello, could you contact me privately so that I can send you an invoice because a guy wants to sell me an iPhone 14 Pro Max and he's in Cyprus, I would like to check if this phone is not stolen, thank you.",
+            "replies": [
+                {
+                    "user": "Anonymous",
+                    "likes": "2",
+                    "timestamp": "2023-02-03",
+                    "comment": "We recommend you contact the local authorities for this check. Best of luck!"
+                }
+            ]
+        }
+    ]
+}

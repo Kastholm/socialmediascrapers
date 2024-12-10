@@ -1,0 +1,45 @@
+{
+    "videoTitle": "Hvem skal tage dig med på skiferie? 🎿❄️",
+    "url": null,
+    "likes": "70",
+    "published": "2023-01-30",
+    "dataFetchDate": "2024-12-09",
+    "shares": "0",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "3",
+            "timestamp": "2023-01-30",
+            "comment": "Jeg tager 3LikeHome med ❤️",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2023-01-30",
+                    "comment": "Det lyder som en rigtig god idé! God tur, Søren! 🎿❄️"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2023-01-30",
+            "comment": "I hvert fald ikke Nanna ...",
+            "replies": [
+                {
+                    "user": "Anonymous",
+                    "likes": "3",
+                    "timestamp": "2023-01-30",
+                    "comment": "Jeg ville tage Søren Saugmann og hans 3LikeHome med... 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2023-01-30",
+            "comment": "Michael Maroti så hænger du på den 😂",
+            "replies": []
+        }
+    ]
+}

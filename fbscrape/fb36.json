@@ -1,0 +1,60 @@
+{
+    "post": {
+        "title": "Åbningstider jul & nytår 🎄",
+        "content": "Ho ho ho! Julen er lige rundt om hjørnet og vi glæder os helt vildt 🎅 I år er åbningstiderne ikke væsentligt påvirket af hverken jul eller nytår, men for en god ordens skyld er det relevant lige at lave en uddeling ☺️",
+        "likes": 22,
+        "comments_count": 14,
+        "shares": 1,
+        "published_date": "2022-12-21"
+    },
+    "comments": [
+        {
+            "user": "Anonymous",
+            "comment": "Seriøst? Jeres net er nede 23/12! 😡",
+            "likes": 1,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Hej Kenneth, vi er kede af at høre det! Kontakt gerne vores support, så vi kan undersøge sagen. 📞",
+                    "likes": 0
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "comment": "Glædelig jul til jer alle 🎄🎅",
+            "likes": 2,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Tak i lige måde 😊",
+                    "likes": 0
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "comment": "Tak i lige måde 😊",
+            "likes": 1,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Mange tak, Martin! 🎄",
+                    "likes": 0
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "comment": "3 Danmark! Kan godt være jeres butikker har åbent, men holder jeres kundeservice mellem jul og nytår for den sags skyld fri på email, lukket? Man hører hverken fra jeres sælgere eller kundeservice på mail!",
+            "likes": 0,
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "comment": "Hej Martin, vi beklager, hvis vi ikke har været hurtige nok til at svare. Kundeservice er åben alle hverdage og gør deres bedste for at hjælpe hurtigst muligt. Du er velkommen til at kontakte os på telefon også 📞",
+                    "likes": 0
+                }
+            ]
+        }
+    ]
+}
