@@ -1,0 +1,86 @@
+{
+    "videoTitle": "Hvordan ser din sommerferie ud? 🏖✈️",
+    "url": "https://www.facebook.com/3danmark/posts/123456789",
+    "likes": "26",
+    "published": "2022-07-27",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-07-27",
+            "comment": "Nettet er super i Thailand, har været i Phuket, Bangkok, og i nord Thailand. Det har fungeret fint med 4G. 👍",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-07-27",
+                    "comment": "Dejligt at høre, at det har været en god oplevelse for dig. Tak for din feedback! 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-07-27",
+            "comment": "Jeg skal til Thailand i næste uge. Er spændt på, hvordan nettet dernede er.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2022-07-27",
+                    "comment": "Rigtig god ferie! 🏖 Vi er sikre på, at det kommer til at fungere fint."
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-07-27",
+            "comment": "Har lidt udfordringer med nettet her på Cypern. Svært ved at sende en sms.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-07-27",
+                    "comment": "Hej! Vi er kede af at høre om dine udfordringer. Prøv at vælge netværket manuelt til en af disse: Epic, Cytavoda. Vi håber, det løser problemet! 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-27",
+            "comment": "Er der roaming like home på Maldiverne? 🌴🤔",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2022-07-27",
+                    "comment": "Maldiverne er ikke med i 3LikeHome, men du kan se priserne her: https://assets.3.dk/udland/privat_priser_i_udlandet.pdf"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-27",
+            "comment": "Får I Motorola Edge 30 Pro i sortiment?",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-27",
+            "comment": "Jeres dækning er elendig og langsom.",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-27",
+            "comment": "Vi kunne ønske, at hele datapakken var inkluderet i Bosnien, ligesom det er med DUKA.",
+            "replies": []
+        }
+    ]
+}

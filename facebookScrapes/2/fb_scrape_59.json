@@ -1,0 +1,79 @@
+{
+    "videoTitle": "3 ønsker alle en helt fantastisk sommer 🐕☀️",
+    "url": "https://www.facebook.com/3danmark/posts/123456789",
+    "likes": "31",
+    "published": "2022-06-24",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-06-24",
+            "comment": "God ferie! 🌴😎",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-06-24",
+                    "comment": "Tak! God sommer til dig også! ☀️"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-06-24",
+            "comment": "Få fat i jer ja, men for en nedværdigende samtale med jeres kundeservice i går. Jeg opsiger jer.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-06-24",
+                    "comment": "Det er bestemt ikke i orden, hvis det er gået sådan. Send os en mail, så vi kan undersøge sagen! 🙏"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-06-24",
+            "comment": "Vil Costa Rica blive en del af 3LikeHome inden for nærmeste fremtid?",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-06-24",
+                    "comment": "Vi arbejder på at udvide løbende, men Costa Rica er desværre ikke med endnu. God sommer! ☀️"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-06-24",
+            "comment": "Tusind tak for jeres sommerhilsen... Men op til 33% prisstigning? Det er svært at forstå.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2022-06-24",
+                    "comment": "Vi forstår frustrationen, men nogle justeringer er nødvendige for at følge markedet. Vi hjælper gerne med at finde en løsning, der passer bedre til dit behov."
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-06-24",
+            "comment": "Jeg sidder og overvejer at skifte til Telmore pga. prisen.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-06-24",
+                    "comment": "Vi håber, vi kan finde en løsning, der passer dig bedre. Kontakt os, hvis vi kan hjælpe. 🙏"
+                }
+            ]
+        }
+    ]
+}

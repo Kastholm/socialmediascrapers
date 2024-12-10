@@ -1,0 +1,93 @@
+{
+    "videoTitle": "Hvad har været på din huskeliste til årets sommerferie? ☀️📱",
+    "url": "https://www.facebook.com/3danmark/posts/123456789",
+    "likes": "210",
+    "published": "2022-07-07",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-07-07",
+            "comment": "3-solerne og godt humør 😎☀️",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "3",
+                    "timestamp": "2022-07-07",
+                    "comment": "Præcis! Vi må endelig ikke glemme det gode humør på ferien 🌞"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-07",
+            "comment": "Jeg skulle til USA og havde problemer med at få mit simkort til at virke.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-07-07",
+                    "comment": "Hej! Vi er kede af at høre om din oplevelse. Du er velkommen til at kontakte os direkte på kundeservice. Vi hjælper gerne! 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-07",
+            "comment": "Det ville være super fedt, hvis sidste nævnte også virkede! 🙄",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-07-07",
+                    "comment": "Vi arbejder på at forbedre dækningen og takker for din feedback! 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-07-07",
+            "comment": "Jeg havde problemer med mit abonnement i Tyskland.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2022-07-07",
+                    "comment": "Vi beklager! Du kan sende os en email, så vi kan undersøge sagen nærmere. 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-07",
+            "comment": "Det der stod øverst på min liste var dækning, men det manglede desværre...",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-07-07",
+                    "comment": "Vi er kede af, at det ikke levede op til dine forventninger. Kontakt os, så vi kan hjælpe. 🙏"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-07",
+            "comment": "Efter 45 minutter opgav jeg at få hjælp til roaming i Sverige.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-07-07",
+                    "comment": "Beklager ventetiden! Vi arbejder på at forbedre svartiderne. Tak for din tålmodighed. 😊"
+                }
+            ]
+        }
+    ]
+}

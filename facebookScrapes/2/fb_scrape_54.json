@@ -1,0 +1,86 @@
+{
+    "videoTitle": "Hvad er dit bedste sommerferieminde? 🌞",
+    "url": "https://www.facebook.com/3danmark/posts/123456789",
+    "likes": "11",
+    "published": "2022-08-04",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-08-04",
+            "comment": "Gradac Kroatien i går aftes",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-08-04",
+                    "comment": "Hvor ser det dejligt ud! 😍"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-08-04",
+            "comment": "Fra Kroatien",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-08-04",
+                    "comment": "Fantastisk sted! Håber I nød det ☀️"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-08-04",
+            "comment": "Hjem til Italien 🇮🇹",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-08-04",
+                    "comment": "Wow, Italien er altid en god idé! 🇮🇹"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-08-04",
+            "comment": "Alanya i søndags 😎",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-08-04",
+                    "comment": "Lyder som en skøn ferie! ☀️"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-08-04",
+            "comment": "Hej 3. Hvornår forventer I jeres hjemmeside virker korrekt igen?",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-08-04",
+                    "comment": "Vi beklager ulejligheden og arbejder på at få det løst hurtigst muligt."
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-08-04",
+            "comment": "Sommer ved stranden 🌊",
+            "replies": []
+        }
+    ]
+}

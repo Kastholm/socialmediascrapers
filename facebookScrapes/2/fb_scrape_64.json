@@ -1,0 +1,72 @@
+{
+    "videoTitle": "Glæd jer til et lynhurtigt og opgraderet netværk i Parken - København ⚡",
+    "url": "https://www.facebook.com/3danmark/posts/123456789",
+    "likes": "43",
+    "published": "2022-04-07",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "3",
+            "timestamp": "2022-04-07",
+            "comment": "Jeg er virkelig skuffet over jeres kundeservice. Jeg har haft problemer med mobilt bredbånd og har oplevet udfald flere gange. En medarbejder foreslog, at jeg skulle købe en router til 2000 kr. for at løse problemet. Det er frustrerende!",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-04-07",
+                    "comment": "Hej, tak for din besked. Vi er kede af at høre om din oplevelse. Kontakt os direkte på mail, så vi kan hjælpe dig bedst muligt."
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-04-07",
+            "comment": "Hvordan kan det være, at I opdaterer systemet i 'vågne' timer? Kan dette ikke gøres om natten, hvor færre er på nettet?",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-04-07",
+            "comment": "Hvorfor får jeg ikke 5G mere for tiden? Jeg har prøvet alt, men det virker stadig ikke.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "0",
+                    "timestamp": "2022-04-07",
+                    "comment": "Hej, tak for din besked. Send os en mail med dine oplysninger, så undersøger vi sagen for dig. 😊"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-04-07",
+            "comment": "Hvad med at få opgraderet i Kolding? 3 DKs netværk er virkelig langsomt her.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-04-07",
+                    "comment": "Hej, tak for din besked. Vi kigger på det og vender tilbage, når vi har en opdatering på området."
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-04-07",
+            "comment": "Hvorfor er der ikke kundeservice på helligdage og i weekender?",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-04-07",
+            "comment": "Kan du ikke lige køre til Brøndby stadion bagefter? Pft 😅💪",
+            "replies": []
+        }
+    ]
+}

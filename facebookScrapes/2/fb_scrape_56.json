@@ -1,0 +1,86 @@
+{
+    "videoTitle": "Kæmpe rekorder i dataforbrug på årets Roskilde Festival! 🎶🎮📹",
+    "url": "https://www.facebook.com/3danmark/posts/123456789",
+    "likes": "111",
+    "published": "2022-07-12",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "2",
+            "timestamp": "2022-07-12",
+            "comment": "Med det musikprogram kan jeg godt forstå, folk havde næsen nede i telefonen...",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "3",
+                    "timestamp": "2022-07-12",
+                    "comment": "Haha, vi håber dog, de fik oplevet lidt af begge dele! 😄"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-07-12",
+            "comment": "Der må have været godt kedeligt, når mobiler var vigtigere.",
+            "replies": [
+                {
+                    "user": "Anonymous",
+                    "likes": "2",
+                    "timestamp": "2022-07-12",
+                    "comment": "Måske især, når folk spillede Candy Crush i stedet for at høre musikken. 😂"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-07-12",
+            "comment": "Der kan man se, troede man skulle høre musik! 😅",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-12",
+            "comment": "Har hørt, der var mange problemer med signalet under festivalen.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-07-12",
+                    "comment": "Vi beklager de oplevelser! Vi har arbejdet hårdt på at forbedre signalet til næste gang."
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-07-12",
+            "comment": "Hvem har tid til at streame film på en festival? Det virker lidt spildt.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "1",
+                    "timestamp": "2022-07-12",
+                    "comment": "Haha, måske en lille pause fra musikken krævede en god film! 🍿"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-07-12",
+            "comment": "Havde problemer med mit netværk på pladsen.",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2022-07-12",
+                    "comment": "Beklager ulejligheden! Du kan læse mere om eventuelle fejl her: https://www.3.dk/daekning/driftsinfo/"
+                }
+            ]
+        }
+    ]
+}

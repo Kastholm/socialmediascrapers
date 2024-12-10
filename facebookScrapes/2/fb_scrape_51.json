@@ -1,0 +1,51 @@
+{
+    "videoTitle": "Mobilspecialist John G. er ikke i tvivl 😄",
+    "url": "https://www.facebook.com/3danmark/posts/123456789", 
+    "likes": "187",
+    "published": "2022-08-16",
+    "dataFetchDate": "2024-12-10",
+    "comments": [
+        {
+            "user": "Anonymous",
+            "likes": "5",
+            "timestamp": "2022-08-16",
+            "comment": "Kommer det virkelig an på, hvor i DK man befinder sig...",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "2",
+                    "timestamp": "2022-08-16",
+                    "comment": "Tak for alle jeres kommentarer. Det sætter vi stor pris på, både hvad angår de positive historier og jeres udviklingsområder!"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "1",
+            "timestamp": "2022-08-16",
+            "comment": "Har haft 3 mange år. Jeg er i hovedstadsområdet og oplever ikke dårlige forbindelser.",
+            "replies": []
+        },
+        {
+            "user": "Anonymous",
+            "likes": "0",
+            "timestamp": "2022-08-16",
+            "comment": "Hvordan måler man et godt mobilnetværk? 🤔",
+            "replies": [
+                {
+                    "user": "3 Danmark",
+                    "likes": "3",
+                    "timestamp": "2022-08-16",
+                    "comment": "Det handler om hastighed, stabilitet og kapacitet. Læs mere på vores rapport!"
+                }
+            ]
+        },
+        {
+            "user": "Anonymous",
+            "likes": "4",
+            "timestamp": "2022-08-16",
+            "comment": "Med en god forbindelse i Greve 🐢",
+            "replies": []
+        }
+    ]
+}
