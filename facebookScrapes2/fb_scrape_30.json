@@ -1,12 +1,10 @@
 {
-    "post": {
-        "title": "Åbningstider jul & nytår 🎄",
-        "content": "Ho ho ho! Julen er lige rundt om hjørnet og vi glæder os helt vildt 🎅 I år er åbningstiderne ikke væsentligt påvirket af hverken jul eller nytår, men for en god ordens skyld er det relevant lige at lave en uddeling ☺️",
-        "likes": 22,
-        "comments_count": 14,
-        "shares": 1,
-        "published_date": "2022-12-21"
-    },
+    "videoTitle": "Åbningstider jul & nytår 🎄",
+    "content": "Ho ho ho! Julen er lige rundt om hjørnet og vi glæder os helt vildt 🎅 I år er åbningstiderne ikke væsentligt påvirket af hverken jul eller nytår, men for en god ordens skyld er det relevant lige at lave en uddeling ☺️",
+    "likes": 22,
+    "comments_count": 14,
+    "shares": 1,
+    "published_date": "2022-12-21",
     "comments": [
         {
             "user": "Anonymous",
